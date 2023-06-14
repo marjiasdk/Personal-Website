@@ -1,0 +1,53 @@
+/* page styling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styling */
+
+.navbar {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 5px 5px 5px rgb(149, 149, 149);
+}
+
+.navbar-collapse {
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.navbar-nav .nav-link {
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 3.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.navbar-nav .custom::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #640505;
+    transition: width 0.3s ease;
+}
+
+@media (min-width: 576px) {
+    .navbar-nav .custom:hover::after {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar-nav .custom:hover::after {
+        width: 40%;
+        left: 20%;
+        transform: translateX(-50%);
+    }
+}
