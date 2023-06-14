@@ -1,5 +1,5 @@
 ## Portfolio Website
-This repository contains the source code for the website https://marjiasiddik.com. The website is built using HTML, CSS, JavaScript, React, and Bootstrap.
+This repository contains the source code for the website https://marjiasiddik.com. The website is built using HTML, CSS, JavaScript and Bootstrap.
 
 ## Technologies
 The portfolio site is built using the following technologies:
@@ -7,7 +7,6 @@ The portfolio site is built using the following technologies:
 * HTML: Used for creating the structure and content of the web pages.
 * CSS: Used for styling the web pages and providing visual effects.
 * JavaScript: Used for adding interactivity and dynamic features to the website.
-* React: Used as the JavaScript framework to build reusable UI components and manage the website's state.
 * Bootstrap: Used as a CSS framework to provide responsive design, grid system, and pre-built components.
 
 ## License
