@@ -91,11 +91,6 @@ a:link {
     margin-bottom: 1rem;
 }
 
-#home h1:hover {
-    color: rgb(0, 0, 0);
-    
-}
-
 #home p {
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
