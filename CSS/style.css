@@ -100,5 +100,11 @@ a:link {
     margin-right: auto;
 }
 
+@media screen and (max-width: 768px) {
+    #home {
+        margin-top: -80px;
+    }
+}
+
 /* home styling ends */
 
